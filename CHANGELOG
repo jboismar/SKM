@@ -1,0 +1,42 @@
+Changelog/History
+---------------------
+2008		Original development by Jerome Boismartel
+
+2009-10-27 	Contributions by Thomas Fisher :
+		- created 'createaccount_action.php' to handle user add
+		- modified 'MyFunctions.inc.php' to fix root user issues
+		- created 'createaccount.php' to handle user add
+		- created 'sshconnectfail.php' to get better ssh feedback
+		- modified 'decrypt_key.php' to fix root user issues and improve encrypted key handling
+		- modified 'deploy_account.php' to use /etc/skm instead of WWW dir (security hole)
+
+2010-05-04	More Contributions by Thomas Fisher :
+		- fix: problem when adding user and ~/.ssh dir not existent (MyFunctions.inc.php & createaccount.php)
+		- created file VERSION (this file) to document changes
+		- created file HOWTO
+		- changed name from SKM to LSKUM (and added explanation why)
+		- renamings in several files for new name
+		- updated help text for creating remote user account
+		- fix: problem with duplicated help text when creating remote user account
+		- fix: sudoers command for backuppc prevent restoring
+		- modified deploy_account.php to match new naming
+		- added symlinks for README and CHANGELOG
+
+2014-09-10	New functionality and redesign
+		- Interface redesign
+		- Added SKMAdmin accounts so multiple admins can manage keys using their own account
+		- Added identity account to deploy keys. No longer needs root or special account
+		- Added tag functionnality
+		- Added user account creation on AIX and Solaris
+
+
+TO-DO :
+		- code cleanup
+		- get rid of 'environement'. This is replaced and enhanced by tag functionality
+		- search keys no longer worked... This used to work perfectly
+		- need to remove fields from host table. No longer needed since tag functionality
+		- need to restrict sudo rights
+		- need to use iptables and not disable it :(
+		- should leave SELINUX enforcing and not disable it :(
+		- need to handle unix groups. Should be able to create Unix group if it does not exist yet.
+		- Adding more functionality....

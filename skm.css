@@ -1,0 +1,202 @@
+table {
+	width: 100%;
+}
+
+table.navigation {
+	background: url('images/bg_caption_clean.jpg'); 
+	height: 45px; 
+	width: 100%;
+	border: 1px solid #FFCA5E; 	
+}
+
+table.navigation td.navigation{
+	font: 16pt Arial, Helvetica, sans-serif; 
+	text-align: center; 
+	text-indent: 10px; 
+	color: #FFAA00; 	
+	width: 90%;
+}
+
+table.navigation td.foot{
+	text-align: center; 
+	text-indent: 10px; 
+	color: #777777; 	
+}
+
+fieldset {
+	text-align: left; 
+	color: #777777; 
+	border: 1px solid #FFCA5E; 	
+}
+
+legend { 
+	background: url('images/legend_background.png');
+	background-repeat:repeat-x; 
+	border: 1px solid #FFCA5E; 	
+	padding: 8px;
+}
+
+
+table.login{
+	width: 400px;
+	font: 12pt Arial, Helvetica, sans-serif; 
+	text-align: center; 
+	width: 10%;
+	background: none;
+	color: #777777;
+	border-collapse: separate;
+	padding: 10px; 
+}
+table.login td.label{
+	text-align: right; 
+	border: none;
+	background: none;
+}
+table.login td.input{
+	text-align: left; 
+	border: none;
+	background: none;
+}
+
+a { color: #777777; font-family: Arial, Helvetica, sans-serif; font-weight: bold; text-decoration: none; font-size: 10pt; }
+a.navigation { color: #777777; font-family: Arial, Helvetica, sans-serif; font-weight: bold; text-decoration: none; font-size: 14pt; }
+
+img { 
+	border: none; 
+	vertical-align: middle;
+}
+
+a:hover { 
+	color: #F8A704; 
+	text-decoration: underline; 
+}
+
+tfoot th { 
+	background: url('images/bg_total.jpg') repeat-x bottom; 
+	color: #FFFFFF; 
+	height: 30px; 
+}
+
+tfoot td { 
+	background: url('images/bg_total.jpg') repeat-x bottom; 
+	color: #FFFFFF; 
+	height: 30px; 
+}
+
+
+table.host { font-size: 10pt; font-family: Arial, Helvetica, sans-serif; color: #777777; text-align: left; width: 100%; border: 1px solid #FFCA5E; border-collapse: collapse; }
+table.host tbody td { font-size: 0.8em; font-family: Arial, Helvetica, sans-serif; color: #777777; border-top: 1px solid #FFCA5E; border-right: 1px solid #DDDDDD; text-align: left; }
+table.host td.Type { border:none; text-align: right; width:10%; }
+table.host td.Content { border:none; width:40%; }
+
+table.TypeContent { font-size: 10pt; font-family: Arial, Helvetica, sans-serif; color: #777777; text-align: left; width: 100%; border: 1px solid #FFCA5E; border-collapse: collapse; }
+table.TypeContent tbody td { font-size: 0.8em; font-family: Arial, Helvetica, sans-serif; color: #777777; border-top: 1px solid #FFCA5E; border-right: 1px solid #DDDDDD; text-align: left; }
+table.TypeContent td.Type { border:none; text-align: right; width:10%; }
+table.TypeContent td.Content { border:none; width:40%; }
+
+table.detail {
+	font-size: 10pt; 
+	line-height: 1.4em; 
+	font-family: Arial, Helvetica, sans-serif; 
+	color: #777777; 
+	text-align: left; 
+	width: 100%;
+	border: 1px solid #FFCA5E;
+ 	border-collapse: collapse; 	 
+}
+
+table.detail tbody td { font-size: 0.8em; line-height: 1.4em; font-family: Arial, Helvetica, sans-serif; color: #777777; padding: 10px 7px; border-top: 1px solid #FFCA5E; border-right: 1px solid #DDDDDD; text-align: left; }
+
+table.detail th {
+	background: url('images/bg_caption_clean.jpg') repeat right; 
+	height: 47px; 
+	color: #777777; 
+	padding: 0px 7px; 
+	margin: 20px 0px 0px; 
+	text-align: left; 
+}
+table.detail td.detail1 { 
+	border-bottom: 1px #6699CC dotted; 
+	text-align: left; 
+	color: #404040; 
+	background-color: #fcfcec; 
+	padding: 5px; 
+}
+table.detail tr.odd { 
+	background: #FFF8E8 repeat-x; 
+}
+
+table.detail td.title { 
+	line-height: 12pt; 
+	font-family: Arial, Helvetica, sans-serif; 
+	color: #777777; 
+	padding: 5px; 
+	border-right: 1px solid #DDDDDD; 
+	text-align: left; 
+}
+
+
+table.detail td.detail2 { 
+	border-bottom: 1px #6699CC dotted; 
+	text-align: left; 
+	color: #404040; 
+	background-color: #fcfcec; 
+	padding-left: 50px; 
+	line-height : 12pt; 
+}
+
+table.detail td.detail3 { 
+	border-bottom: 1px #6699CC dotted; 
+	text-align: left; 
+	color: #404040; 
+	background-color: #fcfcec; 
+	padding-left: 75px; 
+	line-height : 12pt; 
+}
+
+table.detail td.detail4 { 
+	border-bottom: 1px #6699CC dotted; 
+	text-align: left; 
+	color: #404040; 
+	background-color: #fcfcec; 
+	padding-left: 125px; 
+	line-height : 12pt; 
+}
+
+table.detail td.deployment { 
+	text-align: left; 
+	font-size: 8pt; 
+	color: #404040; 
+	background-color: #fFFFFF; 
+	padding-left: 30px; 
+	line-height : 8pt; 
+}
+
+table.displayaccount {
+	border-collapse:collapse; 
+	border:0px; 
+	background: none;
+	
+}
+table.displayaccount td.displayaccount { 
+	text-align: center; 
+	font-size: 10pt; 
+	color: #404040; 
+	border: none;
+	width: 25%;
+	background: none;
+}
+
+fieldset.cmdok { text-align: left; font-size: 8pt; color: #black; padding-left: 30px; line-height : 8pt; font-family: courrier, Verdana, sans-serif, Arial; 	}
+legend.cmdok { font-size: 8pt; color: #black; background: none; line-height : 8pt; font-family: courrier, Verdana, sans-serif, Arial; 		}
+fieldset.cmderror { text-align: left; font-size: 8pt; color: #FFFFFF; background-color: black; padding-left: 30px; line-height : 8pt; font-family: courrier, Verdana, sans-serif, Arial; 	}
+legend.cmderror { font-size: 8pt; color: #FFFFFF; background: none; background-color: red;  line-height : 8pt; font-family: courrier, Verdana, sans-serif, Arial; 		}
+fieldset.cmdwarning { text-align: left; font-size: 8pt; color: #FFFFFF; background-color: black; padding-left: 30px; line-height : 8pt; font-family: courrier, Verdana, sans-serif, Arial; 	}
+legend.cmdwarning { font-size: 8pt; color: #000000; background: none; background-color: yellow;  line-height : 8pt; font-family: courrier, Verdana, sans-serif, Arial; 		}
+
+
+
+p.delete { background-color: #CC0033; color: #FFFFFF; text-decoration: line-through; }
+p.add { background-color: #99FF99; }
+p.loginname { background-color: #fcfcec; color: #777777; }
+p { color: #777777; font-size: 10pt }
